@@ -1,0 +1,1439 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='air-pollution' inline='true' name='federated.1tk289p0w0awl214bapm51ao7pf7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='air-pollution' name='textscan.08ix53g110kgw715sx2xa1pn0br0'>
+            <connection class='textscan' directory='C:/Users/cruze/Downloads' filename='air-pollution.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.08ix53g110kgw715sx2xa1pn0br0' name='air-pollution.csv' table='[air-pollution#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='Nitrogen oxide (NOx)' ordinal='0' />
+            <column datatype='real' name='Sulphur dioxide (SO₂)' ordinal='1' />
+            <column datatype='real' name='Carbon monoxide (CO)' ordinal='2' />
+            <column datatype='real' name='Organic carbon (OC)' ordinal='3' />
+            <column datatype='real' name='NMVOCs' ordinal='4' />
+            <column datatype='real' name='Black carbon (BC)' ordinal='5' />
+            <column datatype='real' name='Ammonia (NH₃)' ordinal='6' />
+            <column datatype='real' name='Nitrogen oxide (NOx) 1' ordinal='7' />
+            <column datatype='real' name='Sulphur dioxide (SO₂) 1' ordinal='8' />
+            <column datatype='real' name='Carbon monoxide (CO) 1' ordinal='9' />
+            <column datatype='real' name='Organic carbon (OC) 1' ordinal='10' />
+            <column datatype='real' name='NMVOCs 1' ordinal='11' />
+            <column datatype='real' name='Black carbon (BC) 1' ordinal='12' />
+            <column datatype='real' name='Ammonia (NH₃) 1' ordinal='13' />
+            <column datatype='string' name='Entity' ordinal='14' />
+            <column datatype='integer' name='Year' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.08ix53g110kgw715sx2xa1pn0br0' name='air-pollution.csv' table='[air-pollution#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='Nitrogen oxide (NOx)' ordinal='0' />
+            <column datatype='real' name='Sulphur dioxide (SO₂)' ordinal='1' />
+            <column datatype='real' name='Carbon monoxide (CO)' ordinal='2' />
+            <column datatype='real' name='Organic carbon (OC)' ordinal='3' />
+            <column datatype='real' name='NMVOCs' ordinal='4' />
+            <column datatype='real' name='Black carbon (BC)' ordinal='5' />
+            <column datatype='real' name='Ammonia (NH₃)' ordinal='6' />
+            <column datatype='real' name='Nitrogen oxide (NOx) 1' ordinal='7' />
+            <column datatype='real' name='Sulphur dioxide (SO₂) 1' ordinal='8' />
+            <column datatype='real' name='Carbon monoxide (CO) 1' ordinal='9' />
+            <column datatype='real' name='Organic carbon (OC) 1' ordinal='10' />
+            <column datatype='real' name='NMVOCs 1' ordinal='11' />
+            <column datatype='real' name='Black carbon (BC) 1' ordinal='12' />
+            <column datatype='real' name='Ammonia (NH₃) 1' ordinal='13' />
+            <column datatype='string' name='Entity' ordinal='14' />
+            <column datatype='integer' name='Year' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nitrogen oxide (NOx)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nitrogen oxide (NOx)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Nitrogen oxide (NOx)</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sulphur dioxide (SO₂)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sulphur dioxide (SO₂)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Sulphur dioxide (SO₂)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbon monoxide (CO)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbon monoxide (CO)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Carbon monoxide (CO)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organic carbon (OC)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Organic carbon (OC)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Organic carbon (OC)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NMVOCs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NMVOCs]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>NMVOCs</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black carbon (BC)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black carbon (BC)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Black carbon (BC)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ammonia (NH₃)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ammonia (NH₃)]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Ammonia (NH₃)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Nitrogen oxide (NOx) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Nitrogen oxide (NOx) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Nitrogen oxide (NOx) 1</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sulphur dioxide (SO₂) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sulphur dioxide (SO₂) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Sulphur dioxide (SO₂) 1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carbon monoxide (CO) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Carbon monoxide (CO) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Carbon monoxide (CO) 1</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organic carbon (OC) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Organic carbon (OC) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Organic carbon (OC) 1</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NMVOCs 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NMVOCs 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>NMVOCs 1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black carbon (BC) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black carbon (BC) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Black carbon (BC) 1</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ammonia (NH₃) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ammonia (NH₃) 1]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Ammonia (NH₃) 1</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Entity]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Entity</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[air-pollution.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Ammonia (NH₃) 1]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Black carbon (BC)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Carbon monoxide (CO)]' role='measure' type='quantitative' />
+      <column caption='NMVO Cs' datatype='real' name='[NMVOCs]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Organic carbon (OC)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sulphur dioxide (SO₂)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='air-pollution.csv' datatype='table' name='[__tableau_internal_object_id__].[air-pollution.csv_732663DCCEF64815A956F97DAB8BA450]' role='measure' type='quantitative' />
+      <column-instance column='[Ammonia (NH₃) 1]' derivation='Sum' name='[sum:Ammonia (NH₃) 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Black carbon (BC)]' derivation='Sum' name='[sum:Black carbon (BC):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Carbon monoxide (CO)]' derivation='Sum' name='[sum:Carbon monoxide (CO):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Organic carbon (OC)]' derivation='Sum' name='[sum:Organic carbon (OC):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sulphur dioxide (SO₂)]' derivation='Sum' name='[sum:Sulphur dioxide (SO₂):qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Black carbon (BC):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Organic carbon (OC):qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Sulphur dioxide (SO₂):qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Ammonia (NH₃) 1:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='air-pollution.csv' id='air-pollution.csv_732663DCCEF64815A956F97DAB8BA450'>
+            <properties context=''>
+              <relation connection='textscan.08ix53g110kgw715sx2xa1pn0br0' name='air-pollution.csv' table='[air-pollution#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='real' name='Nitrogen oxide (NOx)' ordinal='0' />
+                  <column datatype='real' name='Sulphur dioxide (SO₂)' ordinal='1' />
+                  <column datatype='real' name='Carbon monoxide (CO)' ordinal='2' />
+                  <column datatype='real' name='Organic carbon (OC)' ordinal='3' />
+                  <column datatype='real' name='NMVOCs' ordinal='4' />
+                  <column datatype='real' name='Black carbon (BC)' ordinal='5' />
+                  <column datatype='real' name='Ammonia (NH₃)' ordinal='6' />
+                  <column datatype='real' name='Nitrogen oxide (NOx) 1' ordinal='7' />
+                  <column datatype='real' name='Sulphur dioxide (SO₂) 1' ordinal='8' />
+                  <column datatype='real' name='Carbon monoxide (CO) 1' ordinal='9' />
+                  <column datatype='real' name='Organic carbon (OC) 1' ordinal='10' />
+                  <column datatype='real' name='NMVOCs 1' ordinal='11' />
+                  <column datatype='real' name='Black carbon (BC) 1' ordinal='12' />
+                  <column datatype='real' name='Ammonia (NH₃) 1' ordinal='13' />
+                  <column datatype='string' name='Entity' ordinal='14' />
+                  <column datatype='integer' name='Year' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Amonia vs Sulphur Dioxide in the last 20 Years'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Amonia vs Sulphur Dioxide in the last 20 Years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='air-pollution' name='federated.1tk289p0w0awl214bapm51ao7pf7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tk289p0w0awl214bapm51ao7pf7'>
+            <column datatype='real' name='[Ammonia (NH₃) 1]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sulphur dioxide (SO₂)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Ammonia (NH₃) 1]' derivation='Sum' name='[sum:Ammonia (NH₃) 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sulphur dioxide (SO₂)]' derivation='Sum' name='[sum:Sulphur dioxide (SO₂):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]' included-values='in-range'>
+            <min>1999</min>
+            <max>2019</max>
+          </filter>
+          <slices>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Sulphur dioxide (SO₂):qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Ammonia (NH₃) 1:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Sulphur dioxide (SO₂):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Ammonia (NH₃) 1:qk] + [federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Sulphur dioxide (SO₂):qk])</rows>
+        <cols>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{26C57517-34A8-42E4-BE58-88CA0F7F3C94}' />
+    </worksheet>
+    <worksheet name='Black Carbon vs Carbon Monoxide levels in the US since 1740'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Black Carbon vs Carbon Monoxide levels in the US since 1740</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='air-pollution' name='federated.1tk289p0w0awl214bapm51ao7pf7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tk289p0w0awl214bapm51ao7pf7'>
+            <column datatype='real' name='[Black carbon (BC)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Carbon monoxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black carbon (BC)]' derivation='Sum' name='[sum:Black carbon (BC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Carbon monoxide (CO)]' derivation='Sum' name='[sum:Carbon monoxide (CO):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]'>
+            <groupfilter function='member' level='[none:Entity:nk]' member='&quot;United States&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Black carbon (BC):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Black carbon (BC):qk] + [federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk])</rows>
+        <cols>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{CA7A4DFD-F2D4-441F-B0C6-9ACB0383A84C}' />
+    </worksheet>
+    <worksheet name='Black vs Organic Carbon in the Largest 6 Continents'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Black vs Organic Carbon in the Largest 6 Continents</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='air-pollution' name='federated.1tk289p0w0awl214bapm51ao7pf7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tk289p0w0awl214bapm51ao7pf7'>
+            <column datatype='real' name='[Black carbon (BC)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Organic carbon (OC)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Black carbon (BC)]' derivation='Sum' name='[sum:Black carbon (BC):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Organic carbon (OC)]' derivation='Sum' name='[sum:Organic carbon (OC):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Black carbon (BC):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Organic carbon (OC):qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Africa&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Asia&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Australia&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Europe&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;North America&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;South America&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]' included-values='in-range'>
+            <min>1900</min>
+            <max>1999</max>
+          </filter>
+          <slices>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</column>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</column>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' value='75' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tk289p0w0awl214bapm51ao7pf7].[Multiple Values]</rows>
+        <cols>([federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk] / [federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{17BDB5A4-5E5F-4430-B9DF-FDC85988EC29}' />
+    </worksheet>
+    <worksheet name='Carbon Monoxide in Asia and Africa in the Last 10 Years'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Carbon Monoxide in Asia and Africa in the Last 10 Years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='air-pollution' name='federated.1tk289p0w0awl214bapm51ao7pf7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tk289p0w0awl214bapm51ao7pf7'>
+            <column datatype='real' name='[Carbon monoxide (CO)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Carbon monoxide (CO)]' derivation='Sum' name='[sum:Carbon monoxide (CO):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Africa&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;Asia&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]' included-values='in-range'>
+            <min>2010</min>
+            <max>2019</max>
+          </filter>
+          <slices>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</column>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</rows>
+        <cols>[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]</cols>
+      </table>
+      <simple-id uuid='{70D1615E-B64D-4BDC-8501-17B0454CEFE8}' />
+    </worksheet>
+    <worksheet name='US vs UK Nitrogen Oxide Levels in 2019'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>US vs UK Nitrogen Oxide Levels in 2019</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='air-pollution' name='federated.1tk289p0w0awl214bapm51ao7pf7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tk289p0w0awl214bapm51ao7pf7'>
+            <column datatype='string' name='[Entity]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Nitrogen oxide (NOx)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Entity]' derivation='None' name='[none:Entity:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Nitrogen oxide (NOx)]' derivation='Sum' name='[sum:Nitrogen oxide (NOx):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;United Kingdom&quot;' />
+              <groupfilter function='member' level='[none:Entity:nk]' member='&quot;United States&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]' included-values='in-range'>
+            <min>2018</min>
+            <max>2019</max>
+          </filter>
+          <slices>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</column>
+            <column>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]' value='174' />
+            <format attr='width' field='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' value='147' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#4e79a7' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Nitrogen oxide (NOx):qk]</rows>
+        <cols>([federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk] / [federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{F0246742-5E74-4556-A966-78AEB7AE9925}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Black Carbon vs Carbon Monoxide levels in the US since 1740'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1D444EE9-B918-4EBD-A798-0EF39329F74A}' />
+    </window>
+    <window class='worksheet' name='US vs UK Nitrogen Oxide Levels in 2019'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{87760195-67AD-4160-8B35-8349C5F5A574}' />
+    </window>
+    <window class='worksheet' name='Amonia vs Sulphur Dioxide in the last 20 Years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DFD574B-3F53-4710-9AF9-5E420FA2CDEB}' />
+    </window>
+    <window class='worksheet' name='Carbon Monoxide in Asia and Africa in the Last 10 Years'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+                  <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[sum:Carbon monoxide (CO):qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Asia&quot;</value>
+                <value>3426624056.2809677</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C2F33794-E356-4439-8518-9D701B6FBE54}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Black vs Organic Carbon in the Largest 6 Continents'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[:Measure Names]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Entity:nk]</field>
+            <field>[federated.1tk289p0w0awl214bapm51ao7pf7].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{3321D102-A24B-46A8-BCD8-EF751AF4F338}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Amonia vs Sulphur Dioxide in the last 20 Years' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Black Carbon vs Carbon Monoxide levels in the US since 1740' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Black vs Organic Carbon in the Largest 6 Continents' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAWCUlEQVR4nO3dW3MbeXrf8W83zmeABAHwLFKkpJHmmFmPnUxsV2U3tqtSeS/OVZyrvIPc
+      5spXqdy44ipXOY6Tiu3drSS1yY69MyPNSCJFggQJEARxPjfQp1xQ4kiz1GgBAhDkfj5VKgAk
+      +s+Hf+DHPqD7kWLbto0QDqW+7QKEeJumHoBOpzPtHyHE2KYeANM0p/0jxAz1mxf83U9/ztPs
+      6dXXhv0OXU2nXi9TbzTeYnWjc7/tAsS7pV8v0rGDLCfj/Oxv/ge6pRJzddjrJ/nDzzb48z/7
+      C378Bz+h2XPjMjt88umnKG+76B8g+wBiZIOBxmCo0+ho+K0OwfgSu7t3MAyDzNoGu7v3KR19
+      RaU9nOs3P8gaQIzIH0sR99apNTvcuXOHoNtmIbPC198eEMxs8aP377KfO2Mx6CV578HbLveN
+      lGkfBm02m8RisWn+iBuxbRtd1/F6vW+7lNcaDodzXR98v0aTZ/tH7OzeRlHmYx3wujmc700g
+      236+E21jGjqWdZlVy7KYZGo1TbvxGN/f2bcs68ZjvtDv90deZtSDD5ZlXc7rmH8PX63Rxe6d
+      nTe++W3bYjgcohvGWD9zFK+bw7kOQK9R4me/+JJhr8Nf/7e/4rzaolqvU63VMHWN00KRfrfF
+      aeGct/pxnjXgp3/zU/qGTa18Tq3ZoVatob2l2qxBi7/9u/+DYdn0+n36vT5at0W+eEF27xFP
+      snk0TaNer1MpnVFrdtjf26fTqqENdU5yxwyMyQX4dfRGnl89zlKuNen3ewy0Plq/T7VWR+u1
+      KZyXMQZ98vk8mm7SqleoNtoTrWGu9wHyZyWSQWjqKutbuwwqpxjJFTrVCvVKiczKJvVamcP9
+      LIFonGTE/1bqLJ0ck1pJcVa8oHF+wvLGNq1qBSPi43AvSzCWYDHsm1k9+ZM8y+koZxd1Oq0a
+      btPARgdvlIDHSyiRYP/JN2zsPqCcP6ZYO2YltUC7foHXdHFRvqDa1vnk/d2p16rrl2v2XO6Y
+      kM+FPjAwwilKZwUSET+He2cEVrfI7j/m4qKC7fLye7/7Oa4JbVnN7RrAtm2GFiwvp2lUq/j8
+      Pvz+MOmlBVRVxe91UzgrUWs0CAcCmBPc5BixUhp9g0wmg9auE4+FKZ6XUFX1srZgAGOWtdk2
+      3aFFJpOh26jSrZc5rzSIJxJcFM/w+f0Uz8+JJJLEA9Dq6Hi9blRVRVFU2vUaLn8EVZn+Zgmo
+      KMrl5tew3+Hk7AKXx89yOolbtTivNvF53RTzJ3hDUaLhMGvr6xN908pOsG3TbreJRqNvu5TX
+      mvc5hOnV2CkXsOKrRD03G+d19V1tAnU6nal8atvr9SY+5qT1er2xd/5m4V2Zw6nwhqHXpHnD
+      YV5X31UAwuHwDX/E683zXy/btlEUZa7XADDfc/jCvNd4XX1zuw8gxCxIAISjSQCEo0kAhKNJ
+      AISjSQCEo410KsRvdqxcgeenqs3LmYBv07/7y3+DPeape3/8+/+WTHR5whWJl40UAGPQZf/w
+      hKEF6rCDN5hgMeGjcF4jmkhy/PQJ//wnP+ar//XXrH/yB6zEbvjx3T8CJ/XjsQOgm8MJVyO+
+      b6QAeHxBfC4TyxUkFvJwUalhqwkefPARueweG6tJTnMn+EJx4PKUXMuyMGZwuuu47OenXM9j
+      jS/qmvc5BOa+xtfVN1IAtG6TgelCNzVMt4ptWYRDAb599BXRRArVFaBcPGZt7XK17XK5UFUV
+      t3t+Tzq1bRuXyzWXNb6oa97nEJj7Gl9X30gV+8MJHjxIXD3e2rm83Vhb/+5r25tjlijE7MlR
+      IOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDhaBIA4WgSAOFoEgDh
+      aBIA4WgSAOFoEgDhaBIA4WgjBcC2DIqFPD1tyKDXoVpvgW1xUSphWBbNRhPbhk6rgW7Ob7tx
+      IV4YKQCmoeMNBNnf3+cgm6VaOOLgKMvANDnMHvPwH/6BnmHy5KtfUO7Mb4cAIV4Y6aJ4t8dH
+      o3yE2xfAq5qkQ/CkavHJ5jK57B4rq2lOnu3hjywC0hblpqQtyuRMrC2KZoDqAdXSOShZ3LuV
+      5vGjr0kur6PoQ3rlM5aXM9guRdqi3JC0RZmcqbRFeeHjROrq/uqatPIT7w45CiQcTQIgHE0C
+      IBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAcTQIgHE0CIBxNAiAc
+      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
+    </thumbnail>
+    <thumbnail height='127' name='Carbon Monoxide in Asia and Africa in the Last 10 Years' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='US vs UK Nitrogen Oxide Levels in 2019' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAX0klEQVR4nO3daYwc553f8W/1fU/Pfd/3xSFFUhQpUpIly6Isy16tvYJ2vQ7WC6+D7Itk
+      ASNAHOyLBME6QYxkgQCW4zhZI95Vdu21JVmiKFKixEMUxXs45AxnOBfn6jm65+5j+qzKi6Eo
+      SqLEHpk9w2H9PwCB7p6q7n8V61dVXc/T9SiapmkIoUOKoiiGjS5CiI0kARC6JgEQurYpArC8
+      vEwkEtnoMsR9aFMEQFVVVFXd6DLEfci00QWIdCXp77xAIJIEIKe8keaKvM+cWkslGeq7SmHD
+      Ftzm9apx89kURwABEOHv/+9LxBUrLpcLu+X2+67Lb7/Em50TaKk4p48cIhDXGDj2Er8961vn
+      ejcHOQJsJlY3za1tFGXZABg68ztOXDfhio4TUEr45lfbeOPVQ0zkztBQ/D2cLjdaxMfLLx+i
+      3zpCfO4x8hd7cO1+nocqLLz8/37DzmeepzzbtrHLtYHkCLCZLI7z93/3c1588UWOd/sIzU0Q
+      iDn5xh/9AfGRM8wbati3t51dTzxLba6J8aEBIpZSnnq0nQe+8gJ//PTD1Fe6OXGik9B0H9fm
+      THjd1o1eqg0lR4DNxFvOd/78L24eAbrGwJ3lxWIyYADSadOveOAxUkf+gVMf5NGwYy9uk5LZ
+      mu9xcgTYTJIx/NPTTE5OMh9cue0kObl5TI+PEol/dNUsu6CQ2ZF+pucW0azFPFxv5Xdnx9nW
+      XL5eld+z5Aiwadj4xjOPM9x7iWGguGknde1f4jG1EEwOnnj2OYpd4H7kWzx69hxLCSNPPPc8
+      xXaFnD3Psz9xlN7hSfKyvTQ211C0lKLEq99z/w8pm6Ez3OLiIiaTCZfLtdGlbHqBwfP88uVj
+      fPmF79FR4d3ocjaUoiiKBOA+tLS0RFZW1kaXcc+T3qD3qVAotNElbBoSAKFr900AtFSSg4cP
+      33zee+wo1297pSTGUHcvoSSE5nxMLUbv+N7zA130TC3cfD7QeZypECQisxw5/C7LK1F6eq6R
+      WGvRoWmOd/avda6M6Dp5AF9w9fH8WBcfXLl9y/FYTw8LiSSJ4AyjgeAd3zcW8nP2Qt/qE01j
+      7volXn7lVV599RUOv3+JeAp8o4NEk7efX01EGR7LXCv2fXQVSCOlpm4+U9UUmgaLs36CwQXG
+      JgKUNm6hqsCO3emB+Dynjx5mgiIaGxp5qK0K32A3wzMRmrZuJ99tIbo4TVf3NYKz8+TtKL/l
+      vVU0NUHfpS6K27bjthhweNyYtRQTk9Okgn5GAnG27nqQLIvC7FgfvSN+rN4itjTVYCFGb/cV
+      5hcWWLSWAxqLU9fpHvCRV9VMU0UuCxM+5qLz+CYjtLTVcr23D0dRPS01RRgycOleS6VutiNo
+      moqqaiRW5pmaWWZyYgxXSSOt1QVYPG5sSoyuE+9yftFOW0MND3S0shIYpnfYT0l9KzVFXpLR
+      Jbq7ulkIr6A5Sm5+TteVER595llyzArJZIpFXx9vHXqLwpotNG3ZTpElxJWrA6i2HLa0NxK4
+      eoE3z/bR1txIU8cusg0LXOjsxV5Yy5b6UuLLM1y6cg2Dp5iOljqsprXt0++bI8BnCYx00z8V
+      o6GxnMGLPUSIMnh5gKTVTVVVOZV1rbTWlBCcvMpYNIu2pgrOvv8+qcQSx05coryxjeqS3I+t
+      qERkkTPHjzBrLaWpxIuSXOFy3yBoSXovnGbZnE9blYkz50eJTF/ldH+QprY2lqcGWIzE6T5z
+      koSnjNaGKqwmAysLk5ztHqe+uYnQwBl6/StMX+tkOuWltczAa4c7qWhqITByhVAs9ZnLerfF
+      lyY41TlKTVMrEz2drADXe3sJJU1U1ZZTWt1Ie1MN2pKPa9NRmltqmbl6Ht9CkHOnTmMrrqOp
+      rpxb++J1tFVx9MDrnDzfTTSl4C2ooLykkNYtWynOthONximra6HEkeBK/xj5ZZUUlZbTsaUd
+      r1Xl/MVe6tq2YA30cHkywqWLnRTUNFPqdRBPrX3d3EdHgM9g9tBUXUt+rhGvdYoPm4cUoxmn
+      04HD4sHjstJ7tp+BOROBYY0V1UViYRRL9XZK8nOZX/CwcksCjFYHFZXFzM0ukVA1jLd8nMlb
+      QnttGWDEOhhkZmSBll3byXfbcDksQIhgIo8dtWVYw9NY/YsEF/14i+spzM/H2V7FxbEABYYs
+      6horyAvFKSz0UJCbi89tS6u1964xmqhuaKEgL5t8l5OPNi8DDqcDe8xNltuFb+wyQ1dHCEw4
+      SWCkcGmOhKeExopCYkEF88zs6myKQm5NB18rrGbGd523j5xg/1OPYbfb8Hi82C0qgflpuoZm
+      iIWXMBS3s6MmG7vdjjcri0Rskv6uawQWFtGSMUoKo5SX5nOl5wrZOUW0FBateRHvnyOAYsBD
+      gsmlGGoywmQkQZb58/OtKBCPxVBVyMrNoqJpF1//xtd58rHt2GwuQn4fyZRKcGmR1C0/RzAY
+      LRRXt9FcoHG6a4jP+6WCy6MwNblIKhkjGI4CZrTYAksrcVYiQaKxJDaHi+CCn3gySWB8GluO
+      +66skrVwuV1MT/tRU3FmfAHcuZ9/GdVgMBCPRkmpKg6ni8LaNp7+2rM8/fheCrOdxJbmCcdT
+      RIMLRD9MjqYRmPKhml2U1zRgI0Iiufpbj0QqiaqGGR2Psvepp9m7vRmrQUNBIRWPk9Q0FJzk
+      lBTz5DPP8swz+2ks9uDMr+KxfXvwxPyMzC6vebnvmwAoioFdu7fTffIwr79xhLzGrWTbTDjc
+      WVjNRsBAVk4WRkxkF+RgArwltcSvn+Wdc30UNj2IfbaL1147QO/4PLgrac5e5s0DBxkLGXDb
+      PjqQO7NysJkMlDZvo1CZxx+GgtxswEBOzoeNS1Zychzk1m/FPNXJG4ePMR9JAnZa2sq48O4h
+      Tvf48Ga5cOdVUuGOcOiNg4yliuio9OLMycYKYHSQn+tEATxZ2ZiMmem7U9m4jfjERV4/cIg5
+      SwVNJW6MFhdelwVQ8ORkYwS8eXlYDArWglq8wX7eOnEOc0EdpeZF3jxwgLPdI2i2bLZUeTl6
+      6A0uDs2T7f2o/SYZmeXooTc4cOg45S07cNmM1FZXcObdg/RPJigvtfLeW28xEIiTn+PBYHPR
+      mG/mjYOHmVmx8WBHGUfeeJ23T1wkpmqEA2O88/bbjMUdlH+BHYc0hGVYfGma7pEADjOM+GbZ
+      s+8RPDbjnWf8Pfh8PkpLSzP6GfcDRVGUT50jhMNh7rVMRKNRjMbMbjQZo1hwGFOEVjSa29ox
+      JFfIdDtVPB6XxrA0fSoAqVTqnvv9berGt/tk8jMuFt/TDBSVVd18th7LoKrqJl1X6+9TAfB4
+      PBtRxx1t1lOgjRAOh/F69d3RLV33zZdgIb4ICYDQNQmA0DUJgNC1jAZgZcHHpZ6Rm03oqXiY
+      zvff4eBbx5hZjpGIzXH80CkiN6+6alx+/02uTcklPLE+MhaAwGg37585T//Q9GoAtBiXTp7E
+      VrODL+/bgVVRSSVDRALDdI+ubvBaeJTrw37G5m//g28h7raMBSC3vJnHH92Fx7Z6pTW+6Gcq
+      YWR5uJMzXYMYrav3o/FUthIe7QVg/OoIFa3Vcl4m1k3GeoMaDEa4pdtKIh4nGk1Q8+BOEnMj
+      vHf6Mo9vz8Zo8WANjxJS4XooxZZyC/OxG/MkEmiaRjKZRNM0YrFYpsq9rySTSVlXaVq37tBW
+      uwO7PYssbxZGWwXGyWurf1CMtFba6O7rQ7NVYjYGbs5jNq92QDOZTJhMJqxWfd/FLF2yrtKX
+      sbONmZFezl3sZmJ8iAuXuomYvNR4ohw99h6nzlwkJ7/s5rTuylYmTrxLSXMV+r5PmVhvGesN
+      GloMsBSOrz4xmsnLzcVsSLEwN0dSsZKbm42BBNEo2O1mlhYWcGVnY0isEFEtuGwfHZw2c2/Q
+      jSC9QdNz296gd4vLm4/rU91RjOQWFN/y3ILDsfrIm5Nz4yUHspmL9SIXXISu3f+/CRa3dXlo
+      ht8cv7rRZWTUd77SQX1ZzudOIwHQqYXgCl2DMxtdRkb9wd47XwqWUyChaxIAoWsSAKFrEgCh
+      axIAoWsSAKFrEgChaxIAoWsSAKFrEgChaxIAoWsSAKFrEgChaxIAoWsSAKFrEgChaxIAoWsS
+      AKFrEgChaxIAoWsSAKFrEgChaxIAoWsSAKFrEgChaxIAoWsSAKFrEgChaxkLQCoRYeDSSd54
+      t5PELa8vzwzwzy/9M/4oxCIT/Prnv8YfuzFGhxbjyD/9L04NzGeqLCE+JmMBWJjxkTRZSUYT
+      fDgETSq2zNXecbxuK3ENNC1Fbq6V/gE/APHAADFrLpF46rPfWIi7KGO3R88rqycvb5rRyYnV
+      F7QUY/29OCubsQ123pzOXlBHdHYQjUIGBwLUNxQyfuNvqqqiaRqapqGqKqmUBCMd6awrNTMj
+      Y91T0lkP6zY+QHh2lJ6xMO0dCQaXl2FmDm8+GEx28lLTzMQS+OMK22xGxqOr83y48d8aApGe
+      O64rHQQgnW1m3QKgmO2UFLjxT02ysBSEwBzV+VZQDDQ05vHB6VOYcpowGq7fnMdoNAJgMBgw
+      Go03h00Vn89gMNxxXRkM9//1j3S2mYwFYLjrPa4M+fBNh4moQfbt2cMDO4uBJI5ohJy2Bqza
+      BBaLhrWgieChl9jxwiMY/D6s5vv/P0fcGzIWgJqOfdR03P4jW/c9fuNxGQ9sW3309T/789UH
+      FdvZm6mihPgE2dUKXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2T
+      AAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAI
+      XZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF3LWAA0TSUYGOX85SFSqy+wHBjlnTcPcOjd
+      UyxGUyRiAd45cJyQ+uEwqSoXj73GVV8wU2UJ8TEZC0BgtIdzl65wfTSwGoB4iCHfEju/9BQP
+      NeRw+txlUskIiUUf3SMhALTwKOMTS0wuRjNVlhAfk7EAFFS18/i+HbitN0ZhsrrZtnULHpuJ
+      WHQFp8sDgLuylZXxqwCM9oxQ2VaFkqmihPiEdRslEkBNrHD57EnmjCU88mANqZUxjGYXtvAc
+      yyqMRlQ6co3MxVanTyQSaJpGMplE0zRisdh6lrtpJZPJO66rZDK5TtVsnEQiccf1sH4BUOP0
+      nDuNqWwbX6rIxaAoq6dGipG2ajtXerrR7NWYjDM3Z/lwiEuTyYTJZMJqta5buZtZOuvKZFrX
+      fd+GMJvNd1wPGTsFmhy8zMkPLjJyvY8PznTin5rgysgUC+N9nHr/fXpGPtrQnRVt+E4eo6yl
+      Uk5/xLrK2G4gu6iCJm8JTe2AwYjb6eSr+79C8sbA3Ra7C4s9l61bNRSjiae//S+wuw0o9m3s
+      0WRAbLE+MhYAu8uL3fXx16zWvE9NZ7txhHJ5Vr8UY7Zhz1RRQnyCNIQJXZMACF2TAAhdkwAI
+      XZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2T
+      AAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdkwAIXZMACF2TAAhdS/v2
+      6JqaYKT3EmfOd3J9fBrN4qK2oY3de/dQkee68xsIcQ9KKwDJlSXefvWfGAy52LPnMXY/ZgVN
+      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
+      7ZLZi3VPHwUAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
